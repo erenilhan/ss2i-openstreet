@@ -27,5 +27,14 @@
         "pestphp/pest": "^2.0",
         "pestphp/pest-plugin-arch": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0"
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Erenilhan\\FilamentOpenStreetMap\\FilamentOpenStreetMapServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
