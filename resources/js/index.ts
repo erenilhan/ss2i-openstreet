@@ -16,7 +16,7 @@ import { Icon, Style } from 'ol/style'
 
 class mPoint {
     constructor(public view: View, public projection: ProjectionLike) {
-        alert('mPoint')
+        console.log('mPoint', this.view, this.projection)
     }
 
     public onChange(callback: (lon: number, lat: number) => void) {

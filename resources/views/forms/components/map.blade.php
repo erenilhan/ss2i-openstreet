@@ -21,6 +21,7 @@
     :component="$getFieldWrapperView()"
     :field="$field"
     :has-inline-label="$hasInlineLabel"
+    wire:ignore
 >
     <x-slot
         name="label"
