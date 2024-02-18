@@ -1,0 +1,16 @@
+{
+    "name": "erenilhan/ss2i-openstreetmap-custom",
+    "description": "Custom Openstreet Map",
+    "autoload": {
+        "psr-4": {
+            "Erenilhan\\Ss2iOpenstreetmapCustom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "erenilhan",
+            "email": "erenilhan@ss2i-digital.fr"
+        }
+    ],
+    "require": {}
+}
